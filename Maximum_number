@@ -1,0 +1,7 @@
+var num1=10;
+var num2=20;
+var num3=95;
+var maximum=console.log(findMax(num1,num2,num3));
+function findMax(num1,num2,num3){
+    return Math.max(num1,num2,num3);
+}
