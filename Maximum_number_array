@@ -1,0 +1,5 @@
+var array=[10,20,500,30,90,60,25];
+var result=console.log(findMaxArray(array));
+function findMaxArray(array){
+    return Math.max(...array);
+}
