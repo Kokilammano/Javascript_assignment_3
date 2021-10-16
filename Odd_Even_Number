@@ -1,0 +1,9 @@
+var num=10;
+var result=console.log(oddOrEven(num));
+function oddOrEven(num){
+    if(num%2==0){
+        return num +" is even number";
+    }else{
+        return num +" is odd number";
+    }
+}
